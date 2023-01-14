@@ -110,9 +110,11 @@ const start = () => {
   }
 }
 
+// start program when page has loaded
+
 window.addEventListener("load", (event) => {
   start();
-})
+});
 
 
 // Function to prompt user for password options
